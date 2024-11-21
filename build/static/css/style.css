@@ -56,7 +56,7 @@ footer {
     min-height: 90dvh;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    height: fit-content;
+    background-color: coral;
 }
 
 .wrapper-main{
