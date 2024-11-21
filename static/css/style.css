@@ -27,8 +27,11 @@ nav ul li a {
     text-decoration: none;
 }
 
-main {
+
+.main-content {
+    display: flex;
     padding: 0px 20px 20px 20px;
+    justify-content: center;
 }
 
 h1 {
@@ -47,5 +50,17 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    bottom: 0;
+}
+
+.wrapper {
+    min-height: 90dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: fit-content;
+}
+
+.wrapper-main{
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
 }
