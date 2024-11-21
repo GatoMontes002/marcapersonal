@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Marca Personal</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/skills">Habilidades</a></li>
+                <li><a href="/philosophy">Filosofía</a></li>
+                <li><a href="/humor">Humor</a></li>
+                <li><a href="/contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+<h1>Mis Pensamientos Filosóficos</h1>
+<p>Aquí puedes compartir tus reflexiones y pensamientos sobre filosofía.</p>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Marca Personal</p>
+    </footer>
+</body>
+</html>
