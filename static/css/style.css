@@ -87,3 +87,7 @@ footer {
 .social-links-text{
 }
 
+.item-menu:hover {
+    color: #ccc;
+}
+
