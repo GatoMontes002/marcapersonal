@@ -29,13 +29,12 @@ nav ul li a {
 
 
 .main-content {
-    display: flex;
     padding: 0px 20px 20px 20px;
     justify-content: center;
 }
 
 h1 {
-    margin-top: 5px;
+
     margin-bottom: 0px;
     padding-bottom: 0;
 }
@@ -53,10 +52,38 @@ footer {
 }
 
 .wrapper {
-    min-height: 90dvh;
+    min-height: 100vh;
+    min-height: 100svh;
+    min-height: 100dvh;
+
     display: grid;
-    grid-template-rows: auto 1fr auto;
-    background-color: coral;
+    grid-template-rows: auto 1fr auto ;
+    background-color: #eee;
+}
+.contenedor{
+    width: 100%;
 }
 
+.social-links {
+}
+
+.social-links a {
+    color: #000;
+    margin: 0 10px;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #ff6347;
+}
+
+.social-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links-text{
+}
 
